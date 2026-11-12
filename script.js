@@ -28,6 +28,31 @@ const questions = [
     choices: ["The private key", "The public key (.pub)", "Your password"],
     correct: 1,
   },
+  {
+  text: "Which command creates a new Git repository?",
+  choices: ["git push", "git init", "git pull"],
+  correct: 1
+},
+{
+  text: "Which command saves changes to the local repository?",
+  choices: ["git commit", "git clone", "git fetch"],
+  correct: 0
+},
+{
+  text: "Which command uploads local commits to GitHub?",
+  choices: ["git status", "git add", "git push"],
+  correct: 2
+},
+{
+  text: "Which command downloads a repository from GitHub?",
+  choices: ["git merge", "git clone", "git commit"],
+  correct: 1
+},
+{
+  text: "Which command adds files to the staging area?",
+  choices: ["git add", "git log", "git branch"],
+  correct: 0
+}
 ];
 
 let current = 0;
